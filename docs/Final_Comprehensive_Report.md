@@ -1,7 +1,6 @@
 # RailGuard Vision: Autonomous YOLOv8-Based Railway Track Defect Detection, Sub-Pixel Measurement, and Infrastructure Health System
 
-**Final Year Engineering Capstone Project Report**  
-**Author / Engineering Team:** Capstone Development Team  
+
 **System Name:** RailGuard Vision  
 
 ---
