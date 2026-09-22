@@ -1,0 +1,46 @@
+# Python Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model Weights & Checkpoints (Large Files)
+*.pt
+*.onnx
+*.engine
+*.pth
+models/*.pt
+!models/.gitkeep
+
+# Data & SQLite Database
+data/*.db
+data/raw/
+data/processed/
+data/kaggle/
+*.sqlite
+*.sqlite3
+
+# PDF Reports & Generated Outputs
+reports/*.pdf
+reports/generated/
+*.pdf
+
+# Jupyter Notebook Checkpoints & Cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
