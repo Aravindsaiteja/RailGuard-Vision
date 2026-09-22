@@ -1,15 +1,11 @@
-# 🚆 RailGuard Vision — YOLOv8 Railway Track Defect Detection System
+#  RailGuard Vision — YOLOv8 Railway Track Defect Detection System
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![YOLOv8](https://img.shields.io/badge/YOLO-v8-brightgreen.svg)](https://github.com/ultralytics/ultralytics)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-red.svg)](https://streamlit.io/)
-[![Pytest](https://img.shields.io/badge/Pytest-Passed-success.svg)](https://docs.pytest.org/)
 
 **RailGuard Vision** is an end-to-end computer-vision system for real-time railway track defect detection, physical crack dimension measurement (in centimeters), track structural health scoring, time-series growth tracking, automated PDF inspection report generation, and interactive web dashboard monitoring.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 1. **YOLOv8 Object Detection**: Fine-tuned on railway defect classes (`crack`, `missing_fastener`, `broken_rail`, `joint_fault`) achieving **88.4% mAP@0.5** at **42.5 FPS**.
 2. **OpenCV Image Processing**: CLAHE contrast enhancement for low-light micro-fissure highlight, dual Gaussian/Median edge-preserving denoising, and Hough Line track ROI segmentation.
@@ -21,7 +17,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Rail Gaurd Vision/
@@ -59,7 +55,7 @@ Rail Gaurd Vision/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone & Navigate to Repository
 ```bash
@@ -82,7 +78,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Streamlit App
+##  Running the Streamlit App
 
 Launch the interactive dashboard:
 ```bash
@@ -95,7 +91,7 @@ Open your browser at `http://localhost:8501` to access:
 
 ---
 
-## 🧪 Running Pytest Unit Tests
+##  Running Pytest Unit Tests
 
 Execute the automated unit test suite:
 ```bash
@@ -116,7 +112,7 @@ python src/evaluate.py
 
 ---
 
-## 📚 Documentation & Reports
+##  Documentation & Reports
 
 - **Final Capstone Report**: [`docs/Final_Comprehensive_Report.md`](docs/Final_Comprehensive_Report.md)
 - **Results Summary & Discussion**: [`reports/results_summary.md`](reports/results_summary.md)
